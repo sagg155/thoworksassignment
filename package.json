@@ -1,0 +1,28 @@
+{
+  "name": "thoworksassignment",
+  "version": "1.0.0",
+  "description": "thoughtworksuiassignment",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server public",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server --open"
+  },
+  "author": "Sahil Aggarwal",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "live-server": "^1.2.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-search": "^2.0.5",
+    "webpack": "3.1.0",
+    "webpack-cli": "3.0.8",
+    "webpack-dev-server": "2.5.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3"
+  }
+}
