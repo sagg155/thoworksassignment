@@ -1,6 +1,8 @@
 import React, { Component, PropTypes } from 'react';
 import ReactDOM from 'react-dom';
 import Data from './movielisting';
+import './styles/styles.scss';
+import { Link } from 'react-router';
 import Search from 'react-search';
 // import {Data} from './data';
 var a = Object.values(Data);    
@@ -19,7 +21,7 @@ class App extends Component {
    
       return (
         <div>
-            <h1>chal gya</h1>
+            <h1 className="heading">ThoughtWorks Assignment</h1>
 {/*             
           <Search items={items} />
    
